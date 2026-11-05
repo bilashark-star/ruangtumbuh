@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kebijakan Privasi — Ruang Tumbuh</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header><a class="brand" href="index.html">🌱 Ruang Tumbuh</a><nav><a href="index.html">Beranda</a></nav></header>
+<main>
+<h1>Kebijakan Privasi</h1>
+<p>Terakhir diperbarui: 5 November 2026</p>
+<p>Ruang Tumbuh adalah aplikasi web untuk mengelola lembaga les dan bimbel. Halaman ini menjelaskan data apa yang kami kumpulkan, untuk apa, dan bagaimana Anda dapat mengendalikannya.</p>
+
+<h2>Data yang kami kumpulkan</h2>
+<ul>
+<li><b>Data akun Owner:</b> nama lembaga, singkatan lembaga, nama Owner, username, Gmail, dan password. Password disimpan dalam bentuk hash, bukan teks asli.</li>
+<li><b>Data akun Tentor:</b> nama, username, email (jika diisi Owner), dan password dalam bentuk hash.</li>
+<li><b>Data operasional lembaga yang diisi Owner dan Tentor:</b> data siswa (nama, jenjang, kelas, nama wali, nomor telepon, catatan), jadwal, jurnal mengajar, laporan perkembangan, tarif, invoice, slip gaji, materi, dan logo lembaga.</li>
+<li><b>Catatan aktivitas:</b> riwayat singkat tindakan penting, seperti membuat jadwal atau menyimpan jurnal.</li>
+</ul>
+
+<h2>Data dari akun Google</h2>
+<p>Saat Owner menyetujui akses Google, Ruang Tumbuh meminta izin berikut:</p>
+<ul>
+<li><b>Alamat email dan profil dasar</b> (email, profile, openid): untuk memastikan akun Google yang dipilih sama dengan Gmail yang didaftarkan.</li>
+<li><b>Akses file yang dibuat aplikasi</b> (<code>drive.file</code>): untuk membuat spreadsheet database lembaga di Google Drive Owner. Izin ini tidak memberi akses ke file lain di Drive.</li>
+</ul>
+<p>Penggunaan dan pemindahan informasi yang diterima dari Google API oleh Ruang Tumbuh mengikuti <a href="https://developers.google.com/terms/api-services-user-data-policy">Kebijakan Data Pengguna Layanan Google API</a>, termasuk persyaratan Penggunaan Terbatas (<i>Limited Use</i>).</p>
+
+<h2>Cara kami menggunakan data</h2>
+<p>Data hanya dipakai untuk menjalankan fitur aplikasi: login, pengelolaan siswa dan tentor, jadwal, jurnal, keuangan, dan pemulihan akun. Kami tidak menjual data, tidak memakainya untuk iklan, dan tidak membagikannya kepada pihak ketiga untuk tujuan lain.</p>
+
+<h2>Di mana data disimpan</h2>
+<ul>
+<li>Data operasional setiap lembaga disimpan di Google Spreadsheet yang dibuat di Google Drive Owner lembaga tersebut.</li>
+<li>Data login (username, email, hash password, dan pengaturan akun) disimpan di database autentikasi yang dikelola pengelola aplikasi di Google Drive.</li>
+<li>Agar aplikasi dapat bekerja, akun pengelola aplikasi diberi akses editor ke spreadsheet lembaga. Tentor tidak mendapat akses ke spreadsheet dan hanya melihat data yang ditugaskan kepadanya melalui aplikasi.</li>
+<li>Token akses Google disimpan di sisi server dan tidak ditampilkan di halaman aplikasi.</li>
+<li>Logo lembaga yang diunggah disimpan di Google Drive yang dikelola pengelola aplikasi.</li>
+</ul>
+
+<h2>Berbagi data</h2>
+<p>Data satu lembaga hanya dapat dilihat oleh Owner lembaga tersebut dan Tentor yang diberi akses oleh Owner. Kami tidak membagikan data kepada lembaga lain. Kami dapat membuka data bila diwajibkan oleh hukum.</p>
+
+<h2>Data siswa</h2>
+<p>Data siswa dimasukkan oleh lembaga. Lembaga bertanggung jawab memastikan ia berhak memasukkan data tersebut, termasuk persetujuan orang tua atau wali untuk siswa di bawah umur.</p>
+
+<h2>Keamanan</h2>
+<p>Password disimpan dengan hash, sesi login memiliki batas waktu, percobaan login yang berulang dibatasi, dan hak akses diperiksa di sisi server. Tidak ada sistem yang sepenuhnya bebas risiko, jadi kami menganjurkan password yang kuat dan tidak dipakai di layanan lain.</p>
+
+<h2>Hak Anda</h2>
+<ul>
+<li><b>Mencabut akses Google:</b> buka <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, pilih Ruang Tumbuh, lalu hapus akses.</li>
+<li><b>Mengakses, memperbaiki, atau menghapus data:</b> Owner dapat mengubah atau menghapus data langsung di aplikasi. Untuk menghapus seluruh akun lembaga, hubungi kami lewat email di bawah.</li>
+<li>Spreadsheet di Drive Anda tetap milik Anda dan dapat Anda hapus kapan saja.</li>
+</ul>
+
+<h2>Perubahan kebijakan</h2>
+<p>Jika kebijakan ini berubah, tanggal pembaruan di bagian atas akan diganti.</p>
+
+<h2>Kontak</h2>
+<p>Pertanyaan tentang privasi atau permintaan penghapusan data: <a href="mailto:bilashark@gmail.com">bilashark@gmail.com</a>.</p>
+</main>
+<footer>Ruang Tumbuh · <a href="index.html">Beranda</a></footer>
+</body></html>
